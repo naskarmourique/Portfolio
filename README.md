@@ -8,7 +8,7 @@
 
 ## 🌐 Live Demo
 
-You can view the live demo of my portfolio [here](https://naskarmourique.github.io/Portfolio/).
+You can view the live demo of my portfolio [here](https://mourique.netlify.app/).
 
 ## ✨ Features
 
