@@ -335,6 +335,19 @@ function initSectionNavigation() {
     });
 }
 
+// Initialize mobile menu
+function initMobileMenu() {
+    const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+    const navLinks = document.querySelector('.nav-links');
+    
+    if (mobileMenuBtn && navLinks) {
+        mobileMenuBtn.addEventListener('click', function() {
+            navLinks.classList.toggle('active');
+            this.classList.toggle('active');
+        });
+    }
+}
+
 // Initialize project filters
 function initProjectFilters() {
     const filterButtons = document.querySelectorAll('.filter-btn');
